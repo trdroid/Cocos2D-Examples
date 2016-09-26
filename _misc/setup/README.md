@@ -83,7 +83,7 @@ Setting up cocos2d-x...
 Please restart the terminal or restart computer to make added system variables take effect
 ```
 
-Note that there was an error in setting the "ANT_ROOT" environment variable as the path should be set to the "bin" directory, as "C:\Software\Apache Ant\apache-ant-1.9.7\bin", so define the "ANT_ROOT" environment variable. Also, to avoid the issues that could happen with spaces in the path, change the directory name from "Apache Ant" to "Apache-Ant" and update the path in "ANT_ROOT" environment variable.
+Note that there was an error in setting the "ANT_ROOT" environment variable as the path should be set to the "bin" directory, as "C:\Software\Apache Ant\apache-ant-1.9.7\bin", so define the "ANT_ROOT" environment variable. Also, to avoid the issues that could happen with spaces in the path, change the directory name from "Apache Ant" to "Apache-Ant" and update the path in "ANT_ROOT" environment variable to "C:\Software\Apache-Ant\apache-ant-1.9.7\bin".
 
 ```sh
 C:\Users\droid>cocos
