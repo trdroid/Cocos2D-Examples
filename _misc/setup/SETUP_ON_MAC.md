@@ -1,3 +1,5 @@
+# Setting up on OS X
+
 ```sh
 droid@Yamz:~/Software/Cocos2d-x/Cocos2d-x-3.13.1$ which python
 /usr/bin/python
@@ -69,3 +71,40 @@ Please execute command: "source /Users/droid/.bash_profile" to make added system
 droid@Yamz:~/Software/Cocos2d-x/Cocos2d-x-3.13.1$ source /Users/droid/.bash_profile
 ```
 
+Verify that the environment variables are added in *~/.bash_profile*
+
+```sh
+droid@Yamz:~/Software/Cocos2d-x/Cocos2d-x-3.13.1$ cat ~/.bash_profile
+#export CLICOLOR=1
+#export LSCOLORS=GxFxCxDxBxegedabagaced
+
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+
+# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
+export COCOS_CONSOLE_ROOT=/Users/droid/Software/Cocos2d-x/Cocos2d-x-3.13.1/tools/cocos2d-console/bin
+export PATH=$COCOS_CONSOLE_ROOT:$PATH
+
+# Add environment variable COCOS_X_ROOT for cocos2d-x
+export COCOS_X_ROOT=/Users/droid/Software/Cocos2d-x
+export PATH=$COCOS_X_ROOT:$PATH
+
+# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
+export COCOS_TEMPLATES_ROOT=/Users/droid/Software/Cocos2d-x/Cocos2d-x-3.13.1/templates
+export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+
+# Add environment variable NDK_ROOT for cocos2d-x
+export NDK_ROOT=/Users/droid/Software/Android-NDK/android-ndk-r12b
+export PATH=$NDK_ROOT:$PATH
+
+# Add environment variable ANDROID_SDK_ROOT for cocos2d-x
+export ANDROID_SDK_ROOT=/Users/droid/Software/Android
+export PATH=$ANDROID_SDK_ROOT:$PATH
+export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
+
+# Add environment variable ANT_ROOT for cocos2d-x
+export ANT_ROOT=/Users/droid/Software/Apache-Ant/apache-ant-1.9.7/bin
+export PATH=$ANT_ROOT:$PATH
+```
