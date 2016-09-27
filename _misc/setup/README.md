@@ -85,6 +85,10 @@ Please restart the terminal or restart computer to make added system variables t
 
 Note that there was an error in setting the "ANT_ROOT" environment variable as the path should be set to the "bin" directory, as "C:\Software\Apache Ant\apache-ant-1.9.7\bin", so define the "ANT_ROOT" environment variable. Also, to avoid the issues that could happen with spaces in the path, change the directory name from "Apache Ant" to "Apache-Ant" and update the path in "ANT_ROOT" environment variable to "C:\Software\Apache-Ant\apache-ant-1.9.7\bin".
 
+Verify that the environment variables are added:
+
+![](_misc/Environment%20Variables.PNG)
+
 ```sh
 C:\Users\droid>cocos
 Cocos collects data when the command-line tools are used for development. This data is examined in the aggregate only and is used to continually innovate and improve Cocos products. This data is anonymous and includes, but is not limited to, a unique hardware identifier, version number our software and information on which tools and/or services in Cocos products are being used and how they are being used. We take your privacy seriously and we do not share or sell any of this data. You can opt-out from sharing this data with us, but by sharing you help contribute to growth of Cocos.
