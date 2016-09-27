@@ -108,3 +108,64 @@ export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
 export ANT_ROOT=/Users/droid/Software/Apache-Ant/apache-ant-1.9.7/bin
 export PATH=$ANT_ROOT:$PATH
 ```
+
+### Using the *cocos* command
+
+```sh
+droid@Yamz:~$ which cocos
+/Users/droid/Software/Cocos2d-x/Cocos2d-x-3.13.1/tools/cocos2d-console/bin/cocos
+
+droid@Yamz:~$ cocos
+Cocos collects data when the command-line tools are used for development. This data is examined in the aggregate only and is used to continually innovate and improve Cocos products. This data is anonymous and includes, but is not limited to, a unique hardware identifier, version number our software and information on which tools and/or services in Cocos products are being used and how they are being used. We take your privacy seriously and we do not share or sell any of this data. You can opt-out from sharing this data with us, but by sharing you help contribute to growth of Cocos.
+
+Do you agree to sent the data? [Y]es, [N]o
+N
+
+/Users/droid/Software/Cocos2d-x/Cocos2d-x-3.13.1/tools/cocos2d-console/bin/cocos.py 2.1 - cocos console: A command line tool for Cocos2d-x.
+
+Available commands:
+	run              Compiles, deploy and run project on the target.
+	gen-libs         Generate prebuilt libs of engine. The libs will be placed in 'prebuilt' folder of the engine root path.
+	luacompile       Encrypt and/or compile lua files.
+	deploy           Compile and deploy a project to a device/simulator.
+	package          Manage package for cocos.
+	compile          Compile projects to binary.
+	gen-simulator    Generate Cocos Simulator.
+	new              Creates a new project.
+	jscompile        Compile and/or compress js files.
+	gen-templates    Generate templates for Cocos Framework.
+
+Available arguments:
+	-h, --help			Show this help information.
+	-v, --version			Show the version of this command tool.
+	--ol ['en', 'zh', 'zh_tr']	Specify the language of output messages.
+
+Example:
+	cocos new --help
+	cocos run --help
+  
+droid@Yamz:~$ cocos --help
+
+/Users/droid/Software/Cocos2d-x/Cocos2d-x-3.13.1/tools/cocos2d-console/bin/cocos.py 2.1 - cocos console: A command line tool for Cocos2d-x.
+
+Available commands:
+	run              Compiles, deploy and run project on the target.
+	gen-libs         Generate prebuilt libs of engine. The libs will be placed in 'prebuilt' folder of the engine root path.
+	luacompile       Encrypt and/or compile lua files.
+	deploy           Compile and deploy a project to a device/simulator.
+	package          Manage package for cocos.
+	compile          Compile projects to binary.
+	gen-simulator    Generate Cocos Simulator.
+	new              Creates a new project.
+	jscompile        Compile and/or compress js files.
+	gen-templates    Generate templates for Cocos Framework.
+
+Available arguments:
+	-h, --help			Show this help information.
+	-v, --version			Show the version of this command tool.
+	--ol ['en', 'zh', 'zh_tr']	Specify the language of output messages.
+
+Example:
+	cocos new --help
+	cocos run --help  
+```
